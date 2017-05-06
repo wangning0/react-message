@@ -1,0 +1,27 @@
+.message-container {
+    min-width: 200px;
+    max-width: 500px;
+    position: relative;
+    margin: 0 auto;
+
+    .rc-message-container {
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-bottom: 10px;
+    }
+
+    .rc-message-container-success {
+        color: black;
+    }
+
+    .rc-message-container-error {
+        color: red;
+    }
+
+    .rc-message-container-warning {
+        color: pink;
+    }
+ }
+
